@@ -1,0 +1,8 @@
+curl -X POST -H "Cache-Control: no-cache" -H "Postman-Token: e1c060d3-3fa0-0ff8-29d5-652aed8f1e9e" -d '{"input":"[2,[4,6,[665,[23]]],[5],[7],8]"}' "https://ahupawv5d1.execute-api.us-east-1.amazonaws.com/test/v1"
+
+curl -X POST -H "Cache-Control: no-cache" -H "Postman-Token: 5393dd59-5f0b-9b40-4c59-3b726fe57a96" -d '{"input":"[2,8]"}' "https://ahupawv5d1.execute-api.us-east-1.amazonaws.com/test/v1"
+
+curl -X POST -H "Cache-Control: no-cache" -H "Postman-Token: 338b42c3-0cb1-298d-643e-1a461e930195" -d '{"input":"[2,,8]"}' "https://ahupawv5d1.execute-api.us-east-1.amazonaws.com/test/v1"
+
+curl -X POST -H "Cache-Control: no-cache" -H "Postman-Token: 2b748d77-386a-8cb7-ee5d-c7174c86da7c" -d '{"input":"[2,[4],8]"}' "https://ahupawv5d1.execute-api.us-east-1.amazonaws.com/test/v1"
+
