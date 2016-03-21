@@ -24,6 +24,12 @@ public class ArrayFlattenServiceTest {
         context.getLogger().log(handle.toString());
         Assert.assertEquals(handle.getOutput().length, 0);
 
+        when(request.getInput()).thenReturn("");    // Mock implementation
+
+        handle = ArrayFlattenService.handle(request, context);
+        context.getLogger().log(handle.toString());
+        Assert.assertEquals(handle.getOutput().length, 0);
+
         when(request.getInput()).thenReturn("[1,2,4]");    // Mock implementation
 
         handle = ArrayFlattenService.handle(request, context);

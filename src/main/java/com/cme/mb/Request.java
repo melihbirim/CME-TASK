@@ -4,6 +4,7 @@ public class Request {
     public String input;
 
     public String getInput() {
+        if(input == null) input = "";
         return input;
     }
 
