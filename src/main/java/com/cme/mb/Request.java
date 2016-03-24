@@ -14,6 +14,6 @@ public class Request {
 
     @Override
     public String toString() {
-        return "Request{ input='" + input + "}";
+        return "Request{ INPUT='" + input + "}";
     }
 }

@@ -34,7 +34,7 @@ public class ArrayFlattenService {
         }
 
         if (braceCount != 0) {
-            throw new IllegalArgumentException("[PARSE_ERROR] Unable to get input as " + request);
+            throw new IllegalArgumentException("[PARSE_ERROR] Unable to get INPUT as " + request);
         }
 
         String[] output = new String[0];
@@ -45,4 +45,5 @@ public class ArrayFlattenService {
         logger.log(Arrays.toString(output));
         return new Response(output);
     }
+
 }
